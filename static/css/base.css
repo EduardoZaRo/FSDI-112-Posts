@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.navbar{
+    background:lightpink!important;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.cards-container{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap:10px;
+    
+}
+
+.card-text{
+    text-align:justify;
+}

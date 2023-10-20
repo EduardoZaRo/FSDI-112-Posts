@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<h1>About me</h1>
+<p>Hi! My name is Irvin. I'm a recent graduate in computer engineering by the UABC, I'm practicing Flask</p>
+<p style="font-family: 'courier';">//Silence is golden</p>
+
+<img src="{% static 'img/logo.png' %}" alt="logo">
+
+<img src="{% static 'img/me.png' %}" alt="me" style="width:300px">
+
+{% endblock content %}
